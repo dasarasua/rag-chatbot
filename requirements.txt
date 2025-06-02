@@ -1,9 +1,9 @@
-streamlit
+streamlit==1.29.0
 langchain==0.1.14
 langchain-community==0.0.24
-openai
+openai==1.14.3
 chromadb==0.4.24
-sentence-transformers
-pymupdf
+sentence-transformers==2.2.2
+pymupdf==1.23.6
 numpy==1.23.5
 setuptools<65
