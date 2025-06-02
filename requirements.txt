@@ -4,3 +4,4 @@ langchain-community
 openai
 PyMuPDF
 sentence-transformers
+chromadb
