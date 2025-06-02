@@ -1,10 +1,9 @@
 streamlit
-langchain
-langchain-community
+langchain==0.1.14
+langchain-community==0.0.24
 openai
-PyMuPDF
-sentence-transformers
 chromadb==0.4.24
-protobuf==4.25.3
-opentelemetry-exporter-otlp==1.22.0
+sentence-transformers
+pymupdf
 numpy==1.24.4
+setuptools<65
