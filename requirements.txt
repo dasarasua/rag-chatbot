@@ -1,7 +1,11 @@
 streamlit
-langchain
-langchain-community
+langchain==0.1.14
+langchain-community==0.0.24
 openai
-PyMuPDF
+chromadb==0.4.22
 sentence-transformers
-chromadb
+pymupdf
+numpy==1.23.5
+protobuf==4.23.4
+typing-extensions<4.8
+setuptools<65
