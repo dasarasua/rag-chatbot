@@ -1,18 +1,21 @@
 import streamlit as st
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.embeddings import SentenceTransformerEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_community.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 import os
-load_dotenv()
-print("KEY:", os.getenv("OPENAI_API_KEY"))
-print("🔑 KEY FOUND:", os.getenv("OPENAI_API_KEY"))
-openai_api_key = os.getenv("OPENAI_API_KEY")
+import numpy as np
+openai_api_key = st.secrets["OPENAI_API_KEY"]
+if "OPENAI_API_KEY" in st.secrets:
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
+else:
+    load_dotenv()
+    openai_api_key = os.getenv("OPENAI_API_KEY")
 
-st.title("📚 RAG Chatbot (Local PDF Upload)")
+st.title("📚 Alumni LBS Chatbot (Local PDF Upload)")
 
 # Upload PDF
 uploaded_files = st.file_uploader("Upload PDF files", type=["pdf"], accept_multiple_files=True)
