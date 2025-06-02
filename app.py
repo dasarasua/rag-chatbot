@@ -4,7 +4,6 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-from dotenv import load_dotenv
 from langchain_community.chat_models import ChatOpenAI
 import os
 import tempfile
