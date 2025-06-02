@@ -7,4 +7,3 @@ sentence-transformers
 chromadb==0.4.24
 protobuf==4.25.3
 opentelemetry-exporter-otlp==1.22.0
-numpy==1.24.4
