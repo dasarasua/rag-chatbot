@@ -4,4 +4,6 @@ langchain-community
 openai
 PyMuPDF
 sentence-transformers
-chromadb
+chromadb==0.4.15
+protobuf==3.20.3
+grpcio-status==1.48.2
