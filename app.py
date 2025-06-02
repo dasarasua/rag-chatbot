@@ -11,7 +11,7 @@ import tempfile
 # Get OpenAI key from secrets or environment
 openai_api_key = st.secrets["OPENAI_API_KEY"] if "OPENAI_API_KEY" in st.secrets else os.getenv("OPENAI_API_KEY")
 
-st.title("📚 Alumni LBS Chatbot (Local PDF Upload)")
+st.title("📚 Alumni LBS Chatbot")
 
 # Upload PDFs
 uploaded_files = st.file_uploader("Upload PDF files", type=["pdf"], accept_multiple_files=True)
