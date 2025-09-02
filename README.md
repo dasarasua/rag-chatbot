@@ -5,8 +5,6 @@
 Upload your documents and get cited answers. The app chunks, embeds and indexes your files locally in FAISS.  
 Originally built as a two-week MVP for LBS Alumni Career Services to test coverage and speed at scale.
 
-![Problem](docs/README_assets/hero.png)
-
 ## Try it online
 
 Live demo  
