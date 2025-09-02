@@ -90,10 +90,3 @@ See docs/CASE_STUDY.md for context, approach, and outcomes.
 
 📜 License
 MIT License — see LICENSE.
-
-pgsql
-Copiar código
-
-👉 You can copy all of that directly into your `README.md`.  
-
-Do you also want me to prepare a **shorter “executive README”** version that fits in one screen (good for recruiters/community), with details only in `/docs`?
