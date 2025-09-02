@@ -29,10 +29,11 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 streamlit run app.py
-Environment variables (set in .env or your terminal):
+---
 
-ini
-Copiar código
+## Environment variables (set in .env or your terminal):
+
+
 OPENAI_API_KEY=sk-...
 EMBEDDING_MODEL=text-embedding-3-small
 LLM_MODEL=gpt-4o-mini
