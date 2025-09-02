@@ -1,0 +1,5 @@
+# Privacy for the MVP
+
+• Documents are provided at runtime by the user  
+• No personal data is stored externally by default  
+• For usage metrics, consider Cloudflare Web Analytics which does not use cookies
